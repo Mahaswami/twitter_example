@@ -3,7 +3,7 @@ require 'oauth'
 class TestController < ApplicationController
 
   CONSUMER_KEY = 'oURAW1AeEqZT2i9DyqFYQ'
-  CONSUMER_TOKEN = 'VRNB0I3ECJWAkbdXpzk2yA46mBDFJDpoOrfsYu3I34'
+  CONSUMER_TOKEN = ''
 
   def index
   end
