@@ -1,0 +1,2040 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-06-08 12:55:04 +0530
+Served asset /rails.png - 200 OK (9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 12:56:29 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (9.7ms)
+Compiled test.css  (17ms)  (pid 27205)
+Compiled application.css  (29ms)  (pid 27205)
+Compiled jquery.js  (3ms)  (pid 27205)
+Compiled jquery_ujs.js  (0ms)  (pid 27205)
+Compiled test.js  (381ms)  (pid 27205)
+Compiled application.js  (466ms)  (pid 27205)
+Completed 200 OK in 674ms (Views: 673.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-08 12:56:31 +0530
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-08 12:56:31 +0530
+Served asset /test.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 12:56:31 +0530
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-08 12:56:31 +0530
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-08 12:56:31 +0530
+Served asset /test.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-08 12:56:31 +0530
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 12:58:15 +0530
+Processing by TestController#index as HTML
+Completed 500 Internal Server Error in 2557ms
+
+Twitter::Error::Unauthorized (Invalid or expired token):
+  app/controllers/test_controller.rb:11:in `index'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 13:02:00 +0530
+Processing by TestController#index as HTML
+Completed 500 Internal Server Error in 1568ms
+
+Twitter::Error::Unauthorized (Error processing your OAuth request: Read-only application cannot POST):
+  app/controllers/test_controller.rb:11:in `index'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (29.7ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 13:04:13 +0530
+Processing by TestController#index as HTML
+Completed 500 Internal Server Error in 1464ms
+
+Twitter::Error::Unauthorized (Error processing your OAuth request: Read-only application cannot POST):
+  app/controllers/test_controller.rb:11:in `index'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 13:04:20 +0530
+Processing by TestController#index as HTML
+Completed 500 Internal Server Error in 1436ms
+
+Twitter::Error::Unauthorized (Error processing your OAuth request: Read-only application cannot POST):
+  app/controllers/test_controller.rb:11:in `index'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 13:05:50 +0530
+Processing by TestController#index as HTML
+Completed 500 Internal Server Error in 1594ms
+
+Twitter::Error::Unauthorized (Error processing your OAuth request: Read-only application cannot POST):
+  app/controllers/test_controller.rb:11:in `index'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-08 13:08:00 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1720ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-08 13:08:02 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-08 13:08:02 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-08 13:08:02 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-08 13:08:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-08 13:08:02 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-08 13:08:02 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 10:04:07 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 3721ms (Views: 182.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 10:04:13 +0530
+Served asset /application.css - 200 OK (22ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 10:04:13 +0530
+Served asset /test.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 10:04:13 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 10:04:13 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 10:04:13 +0530
+Served asset /test.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 10:04:13 +0530
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:38:50 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:38:51 +0530
+Served asset /test.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:38:51 +0530
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:38:51 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 13:38:51 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:38:51 +0530
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:38:51 +0530
+Served asset /test.js - 304 Not Modified (2ms)
+
+
+Started POST "/tests/authorize" for 127.0.0.1 at 2013-06-10 13:38:53 +0530
+
+ActionController::RoutingError (No route matches [POST] "/tests/authorize"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:39:17 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:39:17 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:39:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:39:17 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:39:17 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:39:17 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:39:18 +0530
+
+ActionController::RoutingError (No route matches [POST] "/test/authorize"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:40:05 +0530
+
+ActionController::RoutingError (No route matches [POST] "/test/authorize"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:40:09 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:40:09 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:40:09 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:40:09 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:40:09 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:40:09 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:40:10 +0530
+
+ActionController::RoutingError (No route matches [POST] "/test/authorize"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:40:28 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:40:28 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:40:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:40:28 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:40:28 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:40:28 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:40:29 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:45:27 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:45:29 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant TestController::OAuth):
+  app/controllers/test_controller.rb:15:in `authorize'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:45:44 +0530
+
+LoadError (no such file to load -- oauth):
+  app/controllers/test_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/test/authorize" for 127.0.0.1 at 2013-06-10 13:46:47 +0530
+
+ActionController::RoutingError (No route matches [GET] "/test/authorize"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Served asset /test.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:46:57 +0530
+Served asset /test.js - 304 Not Modified (3ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:47:01 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Completed 500 Internal Server Error in 1465ms
+
+NameError (undefined local variable or method `pin_auth_parameters' for #<TestController:0x007fa4692b8738>):
+  app/controllers/test_controller.rb:26:in `generate_authorize_url'
+  app/controllers/test_controller.rb:19:in `authorize'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/test/authorize" for 127.0.0.1 at 2013-06-10 13:47:37 +0530
+
+ActionController::RoutingError (No route matches [GET] "/test/authorize"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:47:42 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1691ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:56:00 +0530
+
+SyntaxError (/Users/venkat/workspace/tw_test/app/controllers/test_controller.rb:24: syntax error, unexpected tLAMBDA, expecting keyword_end
+    render :text -> "Twitter Callback - Here are...
+                   ^
+/Users/venkat/workspace/tw_test/app/controllers/test_controller.rb:31: syntax error, unexpected keyword_do_LAMBDA
+...h\s+/, '').split(/,\s+/).map do |param|
+...                               ^
+/Users/venkat/workspace/tw_test/app/controllers/test_controller.rb:32: syntax error, unexpected ',', expecting keyword_end
+      key, value = param.split('=')
+          ^
+/Users/venkat/workspace/tw_test/app/controllers/test_controller.rb:44: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.1) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.1) lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  activesupport (3.2.1) lib/active_support/inflector/methods.rb:228:in `each'
+  activesupport (3.2.1) lib/active_support/inflector/methods.rb:228:in `constantize'
+  activesupport (3.2.1) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:62:in `controller_reference'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:47:in `controller'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:589:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.1) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `_run__2510079388754581132__call__4109757465029514980__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (57.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:56:10 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:56:10 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 13:56:10 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:56:11 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:56:11 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:56:11 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:56:11 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:56:12 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1306ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:56:39 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=3k3xehEJpnownFwqQQvfVXNUNmPV41i90wYv8D4ns&oauth_signature=PxBgrQEG0nwtADfmdnJAuV1fa1U%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370852801&oauth_token=dTN0BUFY01IEY5CVB0hmi40xqdXUNWBs5hdRFHi9iU&oauth_version=1.0
+Completed 302 Found in 1467ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 13:57:18 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 13:57:27 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=Ognfsx8gXfI7qXLFYuNubmb2td1ENtZjBXWuy2U4&oauth_signature=dIzcC2oX3%252F3LGlvirCcy15txDwY%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370852849&oauth_token=undKKqkKWr3pTMDFNaUKXThjzGrSgyUfpVQZPYyvns&oauth_version=1.0
+Completed 302 Found in 1558ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:20:24 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:20:26 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=EFUj6wBPdObfA216GO6cSPXArH8HuL5S7YTKVvkY&oauth_signature=lpcc9KNAn4N%252Bn%252BwVtTTlip6nIJw%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370854227&oauth_token=AxbOQDdLJ6EULGC0FVkDnwSi6EOgOx5QayWEmhR82Y&oauth_version=1.0
+Completed 302 Found in 1287ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:24:44 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:24:45 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=K70zIsZkjAyWxSzAlmYBRb2IIV8TLLyL69ydsbkJs&oauth_signature=Fb9RykHS86iptalR%252FDcLM8hdA6I%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370854486&oauth_token=F92gB1r1DQvgr1fFw7okw6fbCkw0q3mDWxqRmYbWcdc&oauth_version=1.0
+Completed 302 Found in 1262ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:28:56 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:28:57 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:28:57 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:28:57 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:28:57 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:28:57 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:28:57 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:28:58 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=YwAPjf2mJuils8JrhOp8hIQQQYI78lYtui2bUX6EwIc&oauth_signature=Jpeb4GPnAU%252FMo1%252FTFfiVPRGT1jc%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370854740&oauth_token=5wqFqcBrXpFJICp4o4f8gH49dzfaZ5iQieseE6O0&oauth_version=1.0
+Completed 302 Found in 1346ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:29:22 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:29:22 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:29:22 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:29:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:29:22 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:29:22 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:29:23 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:29:24 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/request_token?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=l6krBqRTcscDmqOLo2aELEGd5Xhf55dCNAQdXsrRE&oauth_signature=Ollon3xu%252FZGXydX7SFeYkXeUHvU%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370854766&oauth_token=VTjiCh1szCBZMdGze4AegM7w9HIltlAVj9bOLac&oauth_version=1.0
+Completed 302 Found in 1486ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:36:19 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:36:23 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=ERw8zizW8NP5GYkPJd6ZSuPmhaQdcNdPGLXPHn820&oauth_signature=cX0Be8CkxPZXnNiFCwiFBJm%252BIHU%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855184&oauth_token=0IudRzf9WPWIZzpVNbaicDKvSPsWVWoFi2aLn0qfltA&oauth_version=1.0
+Completed 302 Found in 1190ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/return?oauth_token=0IudRzf9WPWIZzpVNbaicDKvSPsWVWoFi2aLn0qfltA&oauth_verifier=sZfUw1TE1zytrVMJoUJ3EymR0I4MgPRq5YPM9pGsJxc" for 127.0.0.1 at 2013-06-10 14:36:27 +0530
+
+ActionController::RoutingError (No route matches [GET] "/return"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/return?oauth_token=0IudRzf9WPWIZzpVNbaicDKvSPsWVWoFi2aLn0qfltA&oauth_verifier=sZfUw1TE1zytrVMJoUJ3EymR0I4MgPRq5YPM9pGsJxc" for 127.0.0.1 at 2013-06-10 14:36:43 +0530
+
+ActionController::RoutingError (No route matches [GET] "/return"):
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/venkat/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:37:04 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:37:06 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=ZYhUGPtmJ4QP3ZaM1PDTk0Y7LD2EybsL9nWbYs0bc&oauth_signature=g1zYRHqn7KrQ6IZYmt%252B9Ra3rn%252FM%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855228&oauth_token=QpEsaQDJk8wHZSX1NIBysv8sIlgPSFAl67zJtx8w&oauth_version=1.0
+Completed 302 Found in 1993ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=QpEsaQDJk8wHZSX1NIBysv8sIlgPSFAl67zJtx8w&oauth_verifier=xi3K1QFGYDeZq2M0GX53MFsDWhKfPCMvkT9zjm78To" for 127.0.0.1 at 2013-06-10 14:37:09 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"QpEsaQDJk8wHZSX1NIBysv8sIlgPSFAl67zJtx8w", "oauth_verifier"=>"xi3K1QFGYDeZq2M0GX53MFsDWhKfPCMvkT9zjm78To"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:41:33 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:41:36 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=uNOGg8dMzLb68IzBbF0UzIRx8qx4bLNlM1p1DTHSvs&oauth_signature=ixTl6wsy7Hc9UkHR%252BKHE6qlU3XE%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855498&oauth_token=0BtIDrfeUbloreLKCrYIpEoZH66GNjj9fJEdvfLs&oauth_version=1.0
+Completed 302 Found in 1661ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=0BtIDrfeUbloreLKCrYIpEoZH66GNjj9fJEdvfLs&oauth_verifier=hzCvEkEe9QBUR8tI9gWwqtcOnVIyULD7Pva7GiLfY" for 127.0.0.1 at 2013-06-10 14:41:40 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"0BtIDrfeUbloreLKCrYIpEoZH66GNjj9fJEdvfLs", "oauth_verifier"=>"hzCvEkEe9QBUR8tI9gWwqtcOnVIyULD7Pva7GiLfY"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `token' for {:oauth_verifier=>"hzCvEkEe9QBUR8tI9gWwqtcOnVIyULD7Pva7GiLfY"}:Hash):
+  app/controllers/test_controller.rb:28:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:42:31 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:42:34 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=cmD9Kt8dHrR5HtRRpg78MmsmwW12dokggdsAVWo3Lc&oauth_signature=DXGZdGZgCGV5zUwcCMugjOq0F94%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855555&oauth_token=seShT6YclcSwPJN8um1Pgltijl6H3XRDVCnasyJBYV4&oauth_version=1.0
+Completed 302 Found in 1746ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=seShT6YclcSwPJN8um1Pgltijl6H3XRDVCnasyJBYV4&oauth_verifier=6scalenNuV0dxlRfaKCFBMFcctObJruP8Njbl0GQuU4" for 127.0.0.1 at 2013-06-10 14:42:37 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"seShT6YclcSwPJN8um1Pgltijl6H3XRDVCnasyJBYV4", "oauth_verifier"=>"6scalenNuV0dxlRfaKCFBMFcctObJruP8Njbl0GQuU4"}
+Completed 500 Internal Server Error in 2246ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:29:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:09 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:43:13 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=DPQRNF9EYVcbZXa9z2Jrmqqk3iRrYS8QedJ3eiHhMo&oauth_signature=l07AKywnj7FgrJokigAzd%252BpG1pc%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855594&oauth_token=ncxK4MVw1BBUcQwxt88K56tetiBhszmH9JFMJiy4&oauth_version=1.0
+Completed 302 Found in 1140ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=ncxK4MVw1BBUcQwxt88K56tetiBhszmH9JFMJiy4&oauth_verifier=nOjCSHcru2ZDgOE9Pf2q6m0E9MLojjRJpQ4ub9Wkz68" for 127.0.0.1 at 2013-06-10 14:43:16 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"ncxK4MVw1BBUcQwxt88K56tetiBhszmH9JFMJiy4", "oauth_verifier"=>"nOjCSHcru2ZDgOE9Pf2q6m0E9MLojjRJpQ4ub9Wkz68"}
+Completed 500 Internal Server Error in 2406ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:30:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:43:34 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:43:36 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=7I4dp4aHQoFCpDX52K1N4LKe0CdhcnGJAM4Wyk&oauth_signature=hFt7%252BSu4n6jFE3oAX537tgy9InI%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855618&oauth_token=IDpvLXA7S8Cr2hWixbnjVzdPI8Dx6Z34OubF74BYk&oauth_version=1.0
+Completed 302 Found in 1200ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=IDpvLXA7S8Cr2hWixbnjVzdPI8Dx6Z34OubF74BYk&oauth_verifier=yffgBuS7nCIr7WqhzlIpnXqGXbtTx6ri15haYwleA" for 127.0.0.1 at 2013-06-10 14:43:43 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"IDpvLXA7S8Cr2hWixbnjVzdPI8Dx6Z34OubF74BYk", "oauth_verifier"=>"yffgBuS7nCIr7WqhzlIpnXqGXbtTx6ri15haYwleA"}
+Completed 500 Internal Server Error in 2812ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:30:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:44:45 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=A3XjwUb7tCLs5r2LVLGY2K7FkX3e7ma46ZjHivEg7I0&oauth_signature=LonpNk5QGIVRlQ2%252Fb4mUk3P7oFk%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855686&oauth_token=AZ0og4StW0AXmntWjvchRM4SKGCuZNYKKB5i0OixA&oauth_version=1.0
+Completed 302 Found in 1566ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:46:09 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:46:10 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:46:10 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:46:10 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:46:10 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:46:10 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:46:10 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:46:11 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=J2IaOG4doyZvlo2wi2gDIElYA9GEQVs5zL1yjTZYs&oauth_signature=uc%252FsNZ4qW3rG5F85CPgDtmB6zyc%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855772&oauth_token=ogyj3Dj9uPPLzjlI7LQcfBLx7KxxV5Kvew1jjM&oauth_version=1.0
+Completed 302 Found in 1249ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=ogyj3Dj9uPPLzjlI7LQcfBLx7KxxV5Kvew1jjM&oauth_verifier=tmyt7evOIcmtHD33ji4mREJyVFbYFLacjHq9bvVFE" for 127.0.0.1 at 2013-06-10 14:46:15 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"ogyj3Dj9uPPLzjlI7LQcfBLx7KxxV5Kvew1jjM", "oauth_verifier"=>"tmyt7evOIcmtHD33ji4mREJyVFbYFLacjHq9bvVFE"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1237ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:47:20 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=pKYrq4ZJPUYQ391Rg5bI5BWNTJ8IO6vPpnmRjWkU&oauth_signature=rNv5Kcxt%252FzTVIG1XF%252FbvQZ400y4%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855842&oauth_token=c0O36HQHoQrkJOKm1JGy3VSYuTFkRFkLrRUgRc&oauth_version=1.0
+Completed 302 Found in 1364ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=c0O36HQHoQrkJOKm1JGy3VSYuTFkRFkLrRUgRc&oauth_verifier=5afumdELHF3jCGPEQLA5Rg7zdCVUBu2MLuF7dLFziqU" for 127.0.0.1 at 2013-06-10 14:47:24 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"c0O36HQHoQrkJOKm1JGy3VSYuTFkRFkLrRUgRc", "oauth_verifier"=>"5afumdELHF3jCGPEQLA5Rg7zdCVUBu2MLuF7dLFziqU"}
+Completed 500 Internal Server Error in 3790ms
+
+Twitter::Error::Forbidden (Status is a duplicate):
+  app/controllers/test_controller.rb:40:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 14:47:43 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 14:47:44 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=7xgY1F5R4o0Ds8drMZA1oIuxJARQfoJwghy3Dy0HvD4&oauth_signature=GCXoTut5kCM5JwNtK2wOfQEn9Zc%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370855865&oauth_token=59pSJhVngyM1SRq0Bptfl4dCGTUZmaC33tjDiQihHQ&oauth_version=1.0
+Completed 302 Found in 1181ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=59pSJhVngyM1SRq0Bptfl4dCGTUZmaC33tjDiQihHQ&oauth_verifier=0w8Eenx9TGqhV6VvR6XaWgEprdlVN8SpByKxMoBo" for 127.0.0.1 at 2013-06-10 14:47:47 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"59pSJhVngyM1SRq0Bptfl4dCGTUZmaC33tjDiQihHQ", "oauth_verifier"=>"0w8Eenx9TGqhV6VvR6XaWgEprdlVN8SpByKxMoBo"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3312ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 15:58:16 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 15:58:17 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=XOJdjwW0rtYaybATiw7aXweSjd8BHBCE9WrezaUSf8&oauth_signature=YkPI9Q1khoW2ef2u%252BJbOmO%252FfR4Q%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370860099&oauth_token=Jiho17v6YOgq4dOKMp2pZXWedbpkEDici1JeH95w&oauth_version=1.0
+Completed 302 Found in 1377ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=Jiho17v6YOgq4dOKMp2pZXWedbpkEDici1JeH95w&oauth_verifier=HX9GQhfWP6aP5J0DUgL7WLxD3OKai3XyydWC4Xel8" for 127.0.0.1 at 2013-06-10 15:58:21 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"Jiho17v6YOgq4dOKMp2pZXWedbpkEDici1JeH95w", "oauth_verifier"=>"HX9GQhfWP6aP5J0DUgL7WLxD3OKai3XyydWC4Xel8"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `http_method' for nil:NilClass):
+  app/controllers/test_controller.rb:32:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 15:59:41 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 15:59:42 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=9wVC3fSNpYjYybyz8L7kcd1xUXwHWKvW8r7hJCVZaQ&oauth_signature=Rx%252BemxoDsYhkpDtBpbS6Bvo8aIE%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370860184&oauth_token=7lyIV23vrfwQJzBWQpbMJGj80tl3ON5egAmxt1TQa8&oauth_version=1.0
+Completed 302 Found in 1898ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=7lyIV23vrfwQJzBWQpbMJGj80tl3ON5egAmxt1TQa8&oauth_verifier=uq4l4861TdXlyShkMTv0UrsGRxYaOkQSVgUeytHqy4" for 127.0.0.1 at 2013-06-10 15:59:46 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"7lyIV23vrfwQJzBWQpbMJGj80tl3ON5egAmxt1TQa8", "oauth_verifier"=>"uq4l4861TdXlyShkMTv0UrsGRxYaOkQSVgUeytHqy4"}
+Completed 500 Internal Server Error in 1179ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:32:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:00:27 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=nRZfeR9iD8CXdlXTqKyVJ4MGCeLxh9EanzAPGBUjogc&oauth_signature=lkKdUg7IML1mwWHC%252F7G7AfqY6k8%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370860229&oauth_token=9QuNYF17qVpvGRZUXPVgkuEvKJy9jLTaeXGi45AJU&oauth_version=1.0
+Completed 302 Found in 1578ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=9QuNYF17qVpvGRZUXPVgkuEvKJy9jLTaeXGi45AJU&oauth_verifier=xsxE4acQ3DQIt8x22CGO21moFNnKHkSfm5dQQLdx918" for 127.0.0.1 at 2013-06-10 16:00:33 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"9QuNYF17qVpvGRZUXPVgkuEvKJy9jLTaeXGi45AJU", "oauth_verifier"=>"xsxE4acQ3DQIt8x22CGO21moFNnKHkSfm5dQQLdx918"}
+Completed 500 Internal Server Error in 1227ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:33:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:01:11 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=a0VU9oKnPrqt8IE5JK10ijJvj0XAPHsT236jmd8Sfho&oauth_signature=14eqvvUs3L6jhg7JwJ54L0%252BKJ5M%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370860273&oauth_token=DSRqky6qXsF7KHOTVV4kc8Zfgo2FsT6VAsUd3D4HpI&oauth_version=1.0
+Completed 302 Found in 2186ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=DSRqky6qXsF7KHOTVV4kc8Zfgo2FsT6VAsUd3D4HpI&oauth_verifier=sRPvibwL2wcFl2N3dpnR18U6OAuLnU3VgpxCFPh21n4" for 127.0.0.1 at 2013-06-10 16:01:18 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"DSRqky6qXsF7KHOTVV4kc8Zfgo2FsT6VAsUd3D4HpI", "oauth_verifier"=>"sRPvibwL2wcFl2N3dpnR18U6OAuLnU3VgpxCFPh21n4"}
+Completed 500 Internal Server Error in 1900ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:33:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:02:11 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=RRkl16uP3oelgLAxhXvU9ND8rQo2xvXKrJbHSJhdyA&oauth_signature=KspyehFNwD5pWyzxR490sjLnB%252F0%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370860333&oauth_token=qmaAfwLiECDDzr7OoVPgIQ0Jkfkf5q0kk2tfmaUV8&oauth_version=1.0
+Completed 302 Found in 1704ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:07:46 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:07:47 +0530
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:07:47 +0530
+Served asset /test.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:07:47 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:07:47 +0530
+Served asset /test.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:07:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:07:47 +0530
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:07:49 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcZL8mebJ6+XlUx/5BQQan/BEphx70CaoCqSFPvfW4o=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=wGbg3cRTKRMYSYNScwLWP2AdbQrM5JeR5YPnegpmAQ&oauth_signature=tie5Z9xWI%252F7eSMNMyIfsqoDR54Y%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370860670&oauth_token=LxmCLfJ3AMD1sZP7ol4kpymxK4iUBw2oNYHGM97EbU&oauth_version=1.0
+Completed 302 Found in 1295ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=LxmCLfJ3AMD1sZP7ol4kpymxK4iUBw2oNYHGM97EbU&oauth_verifier=cJDEqKA5RphoGjiSbtk4CW19T90xSV5eE8I0pNXbxNc" for 127.0.0.1 at 2013-06-10 16:08:00 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"LxmCLfJ3AMD1sZP7ol4kpymxK4iUBw2oNYHGM97EbU", "oauth_verifier"=>"cJDEqKA5RphoGjiSbtk4CW19T90xSV5eE8I0pNXbxNc"}
+Completed 500 Internal Server Error in 1256ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:35:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:13:49 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:13:49 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:13:50 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:13:50 +0530
+Served asset /test.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:13:50 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:13:50 +0530
+Served asset /test.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:13:50 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:13:51 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eaPjfp6yuJy0r736lcl4dQ6hrH7nsD5IFojlTwiVD0Q=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=pl0sSCvQZqyA4fb8GxjZXBQcjiOFzF8hp6tAgpCWI&oauth_signature=jleiQ5fdtRgGRNyk7w8ATJInsrI%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370861033&oauth_token=573CYL2WXHhlL1cfCi68oNzwVVsEiFbZb8gz797Qkg&oauth_version=1.0
+Completed 302 Found in 1379ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=573CYL2WXHhlL1cfCi68oNzwVVsEiFbZb8gz797Qkg&oauth_verifier=jDrWX86o0oTN71n2uCrjjOXLjBPI6DYKj79ZmYPxo0" for 127.0.0.1 at 2013-06-10 16:13:56 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"573CYL2WXHhlL1cfCi68oNzwVVsEiFbZb8gz797Qkg", "oauth_verifier"=>"jDrWX86o0oTN71n2uCrjjOXLjBPI6DYKj79ZmYPxo0"}
+Completed 500 Internal Server Error in 1099ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/test_controller.rb:35:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Served asset /test.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Served asset /test.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:14:27 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:14:29 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=L2egiusN0Ts0sGlAzSX3TEbJI4jvxcb4f9nP76GPc&oauth_signature=NeyTLg2szInlOxsrI62cSSHEpOY%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370861070&oauth_token=QGtrG0QYnlWqCMmVjCbtAeTueSIKDZFvBM2P0mrFyJ4&oauth_version=1.0
+Completed 302 Found in 1512ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=QGtrG0QYnlWqCMmVjCbtAeTueSIKDZFvBM2P0mrFyJ4&oauth_verifier=xZJMq6KoVBtRgEFpj4UDOV22oKEza6BLPigrj8UE0s" for 127.0.0.1 at 2013-06-10 16:14:33 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"QGtrG0QYnlWqCMmVjCbtAeTueSIKDZFvBM2P0mrFyJ4", "oauth_verifier"=>"xZJMq6KoVBtRgEFpj4UDOV22oKEza6BLPigrj8UE0s"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3454ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:22:38 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=t2rDYqPBL4nVriL9Yehwn8NgzCPNVTSuI2xXasA7mh4&oauth_signature=6rljy58f4AYHi4WgJR2E4bxr0QQ%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370861560&oauth_token=olWrglzernIaTCZCdkHzzw3CnZVQ7NR429CpGwvKBc4&oauth_version=1.0
+Completed 302 Found in 1654ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=olWrglzernIaTCZCdkHzzw3CnZVQ7NR429CpGwvKBc4&oauth_verifier=pygnkiEymmOFHIZAq0RpGsuLaJLYt1vmtTjdNTAT4" for 127.0.0.1 at 2013-06-10 16:22:42 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"olWrglzernIaTCZCdkHzzw3CnZVQ7NR429CpGwvKBc4", "oauth_verifier"=>"pygnkiEymmOFHIZAq0RpGsuLaJLYt1vmtTjdNTAT4"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2921ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:25:13 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=BW3yJgUyoVqo8nTf3lpTmWQbIFXdP4FwvHUbaSMhE&oauth_signature=LC7i1oY%252FJ%252B013YFgGyT7%252BfvPFUA%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370861714&oauth_token=IsulcuN4qjfctzoMLL1wfh1oZPCvw5PKk2KuMLN75w&oauth_version=1.0
+Completed 302 Found in 1534ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=IsulcuN4qjfctzoMLL1wfh1oZPCvw5PKk2KuMLN75w&oauth_verifier=GXj5fVyoQKI5vqIhhwa2p5KOT42RqOhamJ3q4EthI7Q" for 127.0.0.1 at 2013-06-10 16:25:16 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"IsulcuN4qjfctzoMLL1wfh1oZPCvw5PKk2KuMLN75w", "oauth_verifier"=>"GXj5fVyoQKI5vqIhhwa2p5KOT42RqOhamJ3q4EthI7Q"}
+Completed 500 Internal Server Error in 2527ms
+
+Twitter::Error::Forbidden (Status is a duplicate):
+  app/controllers/test_controller.rb:30:in `return'
+
+
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /Users/venkat/.rvm/gems/ruby-1.9.2-p290@fasternotes/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:06 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:33:12 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=BlB4OIOKYzR0ZbT6zrtLwxAoIRh8T3fQT23qbtVVP4&oauth_signature=1nP%252BifdKUGEIjr7JRBwFyAHON5M%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370862193&oauth_token=jsJcL9jdUHZ1S03RsrY7MxM3TK99J32iVzp8gJ24&oauth_version=1.0
+Completed 302 Found in 1254ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=jsJcL9jdUHZ1S03RsrY7MxM3TK99J32iVzp8gJ24&oauth_verifier=zLkzMvNd9odk7o8Gt30GsPXZV8yEMV247fOvgWuHt54" for 127.0.0.1 at 2013-06-10 16:33:16 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"jsJcL9jdUHZ1S03RsrY7MxM3TK99J32iVzp8gJ24", "oauth_verifier"=>"zLkzMvNd9odk7o8Gt30GsPXZV8yEMV247fOvgWuHt54"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1202ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:33:17 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:33:37 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=GcnHU0fIaK2Kc91EN38wZdU4uZMjFkj2jnZwuUJgvU0&oauth_signature=VILR%252BnRPIqCmJ9B9%252Fq%252BjV58B6zk%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370862219&oauth_token=WQYy4GVamzBwkIZZm31u0hBv0z42aJZKLuigUcuRQls&oauth_version=1.0
+Completed 302 Found in 2162ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=WQYy4GVamzBwkIZZm31u0hBv0z42aJZKLuigUcuRQls&oauth_verifier=QlRPX4WSFojYHDeLEhupjztaZQ7Oe2dTLcdL9CuWU" for 127.0.0.1 at 2013-06-10 16:33:41 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"WQYy4GVamzBwkIZZm31u0hBv0z42aJZKLuigUcuRQls", "oauth_verifier"=>"QlRPX4WSFojYHDeLEhupjztaZQ7Oe2dTLcdL9CuWU"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1048ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:33:42 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:37:14 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=PO3CaY9J5SDnMzAGbOeDOr6iMsLZlH6uh7yoycMes&oauth_signature=UpiLOYXE%252Brhxqo0%252FW%252F71lfRnMzk%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370862436&oauth_token=Bf0F3tUnI1cwHCy7Pd8SDVGOKdhijFD9wCDpbGSqZ0&oauth_version=1.0
+Completed 302 Found in 1397ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=Bf0F3tUnI1cwHCy7Pd8SDVGOKdhijFD9wCDpbGSqZ0&oauth_verifier=dUMnSJGEexlKSJF6i1m8Agz6q5RH5v0UfYo9scAInnY" for 127.0.0.1 at 2013-06-10 16:37:18 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"Bf0F3tUnI1cwHCy7Pd8SDVGOKdhijFD9wCDpbGSqZ0", "oauth_verifier"=>"dUMnSJGEexlKSJF6i1m8Agz6q5RH5v0UfYo9scAInnY"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1180ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:37:19 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:37 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/post" for 127.0.0.1 at 2013-06-10 16:37:49 +0530
+Processing by TestController#post as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "update"=>"Test Post goes here", "commit"=>"Post"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1720ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:37:51 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:54 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/forget_token" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Processing by TestController#forget_token as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Forget"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:39:56 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/authorize" for 127.0.0.1 at 2013-06-10 16:39:57 +0530
+Processing by TestController#authorize as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "commit"=>"Authorize"}
+Redirected to https://api.twitter.com/oauth/authorize?oauth_callback=http%253A%252F%252F127.0.0.1%253A3000%252Ftest%252Freturn&oauth_consumer_key=oURAW1AeEqZT2i9DyqFYQ&oauth_nonce=BSCNUrxhOXYuEREIpjuuuULZQeNcDC7FJRLq6vOYdI&oauth_signature=Xslb8BAz6g%252B2qaqFtTeSfDdFX6U%253D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1370862598&oauth_token=u3JqPCzI41YxEEncoQFkYaWwXht6hbZ6VmNHUQ&oauth_version=1.0
+Completed 302 Found in 1103ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/test/return?oauth_token=u3JqPCzI41YxEEncoQFkYaWwXht6hbZ6VmNHUQ&oauth_verifier=XoM5Y4VtUuMF55ZVmbv6eSCqOaSOLzCGYrWSL2sQ50" for 127.0.0.1 at 2013-06-10 16:40:01 +0530
+Processing by TestController#return as HTML
+  Parameters: {"oauth_token"=>"u3JqPCzI41YxEEncoQFkYaWwXht6hbZ6VmNHUQ", "oauth_verifier"=>"XoM5Y4VtUuMF55ZVmbv6eSCqOaSOLzCGYrWSL2sQ50"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1330ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:40:02 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:12 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started POST "/test/post" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Processing by TestController#post as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6ksYSGmGS4pjb5UfNuBvaaP/qVqVliq3WWXZi0ycmwI=", "update"=>"One more test post\r\n", "commit"=>"Post"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.css?body=1" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Served asset /test.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Served asset /test.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-10 16:42:20 +0530
+Served asset /application.js - 304 Not Modified (0ms)

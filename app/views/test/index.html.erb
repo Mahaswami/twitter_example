@@ -1,0 +1,34 @@
+
+<% if session[:twitter_access_secret] %>
+
+
+<p>
+
+<h2>Enter your Message here to Post</h2>
+<%= form_tag('/test/post') do -%>
+  <div><%= text_area_tag 'update' %></div>
+  <div><%= submit_tag 'Post' %></div>
+<% end -%>
+
+</p>
+
+<p>
+
+<h2>Forget Token Info</h2>
+<%= form_tag('/test/forget_token') do -%>
+  <div><%= submit_tag 'Forget' %></div>
+<% end -%>
+
+</p>
+
+
+<% else %>
+<p>
+
+<h2>Authorize This App to Post On Your Behalf</h2>
+<%= form_tag('/test/authorize') do -%>
+  <div><%= submit_tag 'Authorize' %></div>
+<% end -%>
+
+</p>
+<% end %>
